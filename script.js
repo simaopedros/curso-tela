@@ -1,13 +1,121 @@
 // Dados simulando um arquivo JSON incorporado no código
 const aulas = [
     {
-        nome: "Aula 1",
-        video: "https://iframe.mediadelivery.net/embed/45132/VIDEO_ID_1?autoplay=true",
+        nome: "Aula 01 - O que é RPA?",
+        video: "https://iframe.mediadelivery.net/embed/45132/02279449-af90-4f39-b142-c8e2b590f9c1?autoplay=true",
         recursos: "URL_DO_RECURSO_1"
     },
     {
-        nome: "Aula 2",
-        video: "https://iframe.mediadelivery.net/embed/45132/VIDEO_ID_2?autoplay=true",
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        recursos: "URL_DO_RECURSO_2"
+    },{
+        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
+        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
         recursos: "URL_DO_RECURSO_2"
     },
     // Adicione mais aulas conforme necessário
