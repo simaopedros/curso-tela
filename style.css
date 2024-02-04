@@ -2,26 +2,31 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
     height: 100vh; /* Faz o body ocupar a altura total da tela */
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em colunas */
 }
 
 #container {
     display: flex;
-    flex: 1; /* Faz o container crescer e preencher o espaço disponível */
+    flex-direction: row; /* Conteúdo lado a lado */
+    height: 100%; /* Ocupa toda a altura disponível após o header */
     padding: 20px;
+    box-sizing: border-box; /* Inclui o padding no cálculo da largura/altura */
+}
+
+#video-container {
+    width: 70%; /* Vídeo ocupa 70% da largura da tela */
+    height: auto; /* Altura ajustada automaticamente */
+    margin-right: 20px; /* Espaço entre vídeo e lista de aulas */
+    display: flex;
+    flex-direction: column; /* Organiza vídeo e recursos em colunas */
 }
 
 #video {
-    flex-grow: 2; /* Permite que o vídeo cresça e use mais espaço */
-    padding-right: 20px; /* Adiciona um espaço entre o vídeo e a barra lateral */
-}
-
-#video p {
     position: relative;
-    width: 100%; /* Faz o vídeo ocupar 100% da largura do container do vídeo */
-    padding-top: 56.25%; /* Mantém a proporção do vídeo */
+    width: 100%; /* Ocupa toda a largura do container */
+    padding-top: 56.25%; /* Mantém a proporção de aspecto do vídeo */
 }
 
 #video iframe {
@@ -32,14 +37,20 @@ body, html {
     height: 100%;
 }
 
+#recursos {
+    margin-top: 10px; /* Espaço entre o vídeo e os recursos */
+    text-align: center; /* Centraliza o link dos recursos */
+}
+
 #sidebar {
-    flex-grow: 1; /* Permite que a barra lateral cresça, mas não tanto quanto o vídeo */
-    overflow-y: auto; /* Adiciona rolagem se a lista de aulas for muito longa */
+    width: calc(30% - 20px); /* Ocupa o restante da largura disponível menos o espaço entre os elementos */
+    overflow-y: auto; /* Permite rolagem se a lista for muito longa */
 }
 
 #aulas {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 #aulas li {
@@ -51,17 +62,4 @@ body, html {
 
 #aulas li:hover {
     background-color: #ddd;
-}
-
-#recursos {
-    margin-top: 20px; /* Adiciona espaço entre o vídeo e os recursos */
-}
-
-#recursos a {
-    display: inline-block;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
 }
