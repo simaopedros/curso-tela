@@ -74,50 +74,38 @@ const aulas = [
         video: "https://iframe.mediadelivery.net/embed/45132/3c4dff94-da6e-487c-9a30-9380549534cd?autoplay=true",
         recursos: "URL_DO_RECURSO_2"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
+        nome: "Aula 18 - Salvando os dados em uma Planilha",
+        video: "https://iframe.mediadelivery.net/embed/45132/1afa3d68-5c83-4f28-9b64-84bcb0c341c6?autoplay=true",
         recursos: "URL_DO_RECURSO_2"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 19 - Manipulando Planilhas - Write Cell e For Each Data Row",
+        video: "https://iframe.mediadelivery.net/embed/45132/f08de8ab-9a33-4366-9549-8a82efd1f7f4?autoplay=true",
+        recursos: "https://docs.google.com/spreadsheets/d/18FTVhV_WKwr9VqLqbQWGtvytJJkY3epa/edit?amp;ouid=110029684008878935003&amp;rtpof=true&amp;sd=true#gid=1467211835"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 20 - Read Range",
+        video: "https://iframe.mediadelivery.net/embed/45132/8e561358-1842-4280-85ba-7be0ee554755?autoplay=true",
+        recursos: "#"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 21 - Append Range",
+        video: "https://iframe.mediadelivery.net/embed/45132/ea2068e8-0a53-48bf-bca8-a5fd182f8fde?autoplay=true",
+        recursos: "#"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 22 - Delete",
+        video: "https://iframe.mediadelivery.net/embed/45132/8fc92ab9-5810-4afb-b931-44e1147765ba?autoplay=true",
+        recursos: "#"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 23 - Configurando e-mail e enviando arquivos por anexo",
+        video: "https://iframe.mediadelivery.net/embed/45132/09de33ae-8d25-456f-9520-5b19fdefb8c1?autoplay=true",
+        recursos: "#"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
+        nome: "Aula 24 - Lendo mensagens de Email e Baixando Anexos",
+        video: "https://iframe.mediadelivery.net/embed/45132/c4f81962-74d6-4328-acbe-e5d1a2f6c81b?autoplay=true",
+        recursos: "#"
     },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
-    },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
-    },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
-    },{
-        nome: "Aula 02 - Logica e Algoritmo - Uma introdução",
-        video: "https://iframe.mediadelivery.net/embed/45132/4c89fc9a-a35e-42b4-a28e-1578beb88181?autoplay=true",
-        recursos: "URL_DO_RECURSO_2"
-    },
+        nome: "Aula 25 - Trabalhando com arquivos Word",
+        video: "https://iframe.mediadelivery.net/embed/45132/423062e4-7713-4fe8-86f9-6a0c65efd9c5?autoplay=true",
+        recursos: "#"
+    }
     // Adicione mais aulas conforme necessário
 ];
 
