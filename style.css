@@ -51,3 +51,21 @@ body, html {
 #aulas li:hover {
     background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
 }
+
+header {
+    text-align: center; /* Centraliza o logo e o título */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f7f7f7; /* Cor de fundo para o cabeçalho */
+}
+
+header img {
+    max-height: 100px; /* Altura máxima para o logo */
+    margin-bottom: 10px; /* Espaço abaixo do logo */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem padrão do título */
+    color: #333; /* Cor do texto para o título */
+    font-size: 2em; /* Tamanho do texto para o título */
+}
+
