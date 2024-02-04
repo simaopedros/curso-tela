@@ -116,6 +116,8 @@ function inicializarAulas() {
     aulas.forEach((aula, index) => {
         const li = document.createElement('li');
         li.textContent = aula.nome;
+        li.classList.add('aula-item'); // Adicionar classe para estilização
+        li.dataset.index = index; // Guardar o índice no próprio elemento para referência futura
         li.onclick = function() { selecionarAula(index); };
         listaAulasElement.appendChild(li);
     });
@@ -125,17 +127,29 @@ function inicializarAulas() {
 
 function selecionarAula(index) {
     const aula = aulas[index];
+    
+    // Remover a classe de destaque de todos os itens da lista
+    document.querySelectorAll('.aula-item').forEach(item => {
+        item.classList.remove('aula-ativa');
+    });
 
-    // Atualizar o vídeo usando o padrão fornecido
+    // Destacar a aula atual na lista
+    const aulaAtual = document.querySelector(`.aula-item[data-index="${index}"]`);
+    aulaAtual.classList.add('aula-ativa');
+
+    // Atualizar o vídeo
     const videoContainer = document.getElementById('video');
     videoContainer.innerHTML = `
-        <p style="position:relative;padding-top:56.25%">
-            <iframe src="${aula.video}" style="border:none;position:absolute;top:0;height:100%;width:100%" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
-        </p>`;
+        <iframe src="${aula.video}" style="border:none;width:100%;height:100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+    `;
 
-    // Atualizar o link dos recursos
+    // Atualizar o link dos recursos, se disponível
     const recursosContainer = document.getElementById('recursos');
-    recursosContainer.innerHTML = `<a href="${aula.recursos}" target="_blank">Acessar Recursos da Aula</a>`;
+    if (aula.recursos) {
+        recursosContainer.innerHTML = `<a href="${aula.recursos}" target="_blank">Acessar Recursos da Aula</a>`;
+    } else {
+        recursosContainer.innerHTML = ''; // Não exibir link se não houver recursos
+    }
 
     // Salvar o progresso do usuário
     localStorage.setItem('progressoAula', index);
@@ -149,5 +163,11 @@ function carregarProgresso() {
         selecionarAula(0); // Carregar a primeira aula se não houver progresso salvo
     }
 }
+
+// Adicionar estilos para a aula ativa no CSS (isso deve ir no arquivo style.css)
+/* .aula-ativa {
+    background-color: #007BFF;
+    color: white;
+} */
 
 document.addEventListener('DOMContentLoaded', inicializarAulas);
