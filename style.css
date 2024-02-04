@@ -69,3 +69,8 @@ header h1 {
     font-size: 2em; /* Tamanho do texto para o título */
 }
 
+.aula-ativa {
+    background-color: #007BFF;
+    color: white;
+}
+
