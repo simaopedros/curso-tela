@@ -11,7 +11,7 @@ body, html {
     text-align: center; /* Centraliza os elementos filhos que são elementos de bloco */
 }
 
-#video-container iframe {
+#video iframe {
     width: 100%; /* O vídeo ocupa 100% da largura do #video-container */
     height: 450px; /* Altura fixa para o vídeo */
     margin-bottom: 20px; /* Margem entre o vídeo e os recursos */
