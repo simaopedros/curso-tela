@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Faz o body ocupar a altura total da tela */
+}
+
+#container {
+    display: flex;
+    flex: 1; /* Faz o container crescer e preencher o espaço disponível */
+    padding: 20px;
+}
+
+#video {
+    flex-grow: 2; /* Permite que o vídeo cresça e use mais espaço */
+    padding-right: 20px; /* Adiciona um espaço entre o vídeo e a barra lateral */
+}
+
+#video p {
+    position: relative;
+    width: 100%; /* Faz o vídeo ocupar 100% da largura do container do vídeo */
+    padding-top: 56.25%; /* Mantém a proporção do vídeo */
+}
+
+#video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    flex-grow: 1; /* Permite que a barra lateral cresça, mas não tanto quanto o vídeo */
+    overflow-y: auto; /* Adiciona rolagem se a lista de aulas for muito longa */
+}
+
+#aulas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#aulas li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#aulas li:hover {
+    background-color: #ddd;
+}
+
+#recursos {
+    margin-top: 20px; /* Adiciona espaço entre o vídeo e os recursos */
+}
+
+#recursos a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
