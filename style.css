@@ -11,11 +11,14 @@ body, html {
     text-align: center; /* Centraliza os elementos filhos que são elementos de bloco */
 }
 
-#video iframe {
+#video-container iframe {
+    display: block; /* Garante que o iframe se comporte como um bloco */
     width: 100%; /* O vídeo ocupa 100% da largura do #video-container */
     height: 450px; /* Altura fixa para o vídeo */
+    margin: auto; /* Centraliza horizontalmente dentro do #video-container */
     margin-bottom: 20px; /* Margem entre o vídeo e os recursos */
 }
+
 
 #recursos a {
     display: inline-block;
